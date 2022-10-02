@@ -7,7 +7,6 @@ let sum = 0;
 while(num <= 100){
     sum = num;
     num = (sum *= 2);
-    if (sum >= 101) break; 
     
     console.log(num);
     console.log(`The sum is: ${sum} `);
